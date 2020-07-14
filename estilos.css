@@ -53,6 +53,29 @@ img{
     background-color: coral;
     color: black;
 }
+
+form{
+  max-width: 750px;
+  border: 1px solid #ddd;
+  border-radius: 18px;
+  margin: 0 auto;
+}
+
+form div{
+  padding: 15px;
+}
+
+input {
+  width: 90%;
+  display: block;
+}
+
+button {
+  width: 90%;
+  height: 50px;
+  padding: 15px;
+}
+
 .myicono {
     color:aliceblue;
     font-size: 1.5em;
