@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+
 body{
     background-color: #eee;
     color: #333;
+    font-family: 'Merienda One', cursive;
 }
 a{
     text-decoration: none;
@@ -26,7 +29,7 @@ img{
 #navbar ul{
     list-style-type: none;
     margin: 0;
-    padding: 0;    
+    padding: 0;
 }
 .lista-sm {
     display: block;
@@ -42,6 +45,10 @@ img{
     text-align: center;
     color: aliceblue;
 }
+
+#navbar li.active a{
+  color: red;
+}
 #navbar li a:hover{
     background-color: coral;
     color: black;
@@ -52,7 +59,7 @@ img{
     padding: 10px;
     display: none;
 }
-#content {    
+#content {
     max-width: 1180px;
     position: relative;
     top: 80px;
@@ -60,23 +67,23 @@ img{
     background-color: #fff;
     padding: 2%;
 }
-#content header{    
+#content header{
     height: 120px;
     padding: 10px 20px;
     background-color: #ddd;
-    border-radius: 1em;    
+    border-radius: 1em;
 }
-#principal {    
+#principal {
     width: 40%;
     float: left;
     padding: 5px;
 }
-#secundario {    
+#secundario {
     width: 40%;
     float: left;
     padding: 5px;
 }
-#content aside{    
+#content aside{
     width: 20%;
     float: left;
     padding: 5px;
@@ -120,8 +127,8 @@ img{
 @media screen and (max-width: 600px){
     #content{
         width: auto;
-    }    
-    #principal{                
+    }
+    #principal{
         width: auto;
         float: none;
         margin: 0px;
@@ -136,12 +143,12 @@ img{
         width: auto;
     }
     #content footer{
-        width: auto;        
+        width: auto;
     }
     .lista-sm{
         display: none;
     }
-    
+
     #navbar li{
         float: none;
         display: block;
